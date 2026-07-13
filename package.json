@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node init && node src/server.js",
     "test": "jest --testPathIgnorePatterns=\".smoke.js$\" --runInBand --detectOpenHandles --forceExit",
     "test:smoke": "jest --testMatch=\"**/*.smoke.js\" --runInBand --detectOpenHandles --forceExit"
   },
